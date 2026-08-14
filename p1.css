@@ -1,0 +1,378 @@
+.carousel-inner{
+
+height: 500px;
+
+object-fit: cover;
+
+
+}
+
+.carousel-item img{
+    height: 650px;
+    object-fit: cover;
+}
+
+.carousel-caption{
+    bottom: 180px;
+    left: 8%;
+    right: auto;
+    width: 40%;
+    text-align: left;
+}
+
+.carousel-caption h5{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.carousel-caption p{
+    color: white;
+    font-size: 18px;
+}
+#extra{
+
+height: 10vh;
+
+background-color: rgb(255, 255, 255);
+
+
+}
+
+
+
+
+
+
+
+.material-symbols-outlined {
+
+
+
+  height: 50px;
+  width: 50px;
+
+}
+
+
+
+
+.service-section{
+    background:#fff;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(0,0,0,.08);
+    margin-top:-30px;
+    position:relative;
+    z-index:10;
+}
+
+.service-box h6{
+    font-weight:700;
+    margin-bottom:4px;
+}
+
+.service-box p{
+    margin:0;
+    color:#666;
+    font-size:14px;
+}
+
+.service-icon{
+    font-size:38px;
+    color:#2E7D32;
+}
+
+
+
+
+
+
+
+
+
+
+.category{
+    padding:70px 0;
+}
+
+.category-card{
+    background:#fff;
+    border:1px solid #e5e5e5;
+    border-radius:15px;
+    padding:20px;
+    transition:.3s;
+    cursor:pointer;
+}
+
+.category-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+}
+
+.category-card img{
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    border-radius:50%;
+}
+
+.category-card h5{
+    font-size:18px;
+    font-weight:600;
+}
+
+
+
+
+
+
+
+.popular-plants{
+
+    background:#f8f9fa;
+}
+
+.plant-card{
+
+    background:#fff;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+    transition:all .3s ease;
+}
+
+.plant-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.2);
+}
+
+.plant-card img{
+
+    width:100%;
+
+    height:250px;
+
+    object-fit:cover;
+}
+
+.plant-card h5{
+
+    font-weight:bold;
+}
+
+.btn-success{
+
+    border-radius:30px;
+
+    padding:8px 18px;
+}
+
+
+
+.why-choose{
+
+    background:#f8f9fa;
+}
+
+.choose-box{
+
+    background:#fff;
+
+    padding:35px 20px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+    transition:.3s;
+}
+
+.choose-box:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 25px rgba(0,0,0,.2);
+}
+
+.choose-box i{
+
+    font-size:45px;
+
+    color:#198754;
+
+    margin-bottom:15px;
+}
+
+.choose-box h4{
+
+    font-weight:bold;
+}
+
+
+
+
+.subscribe{
+
+    background:#198754;
+
+    color:white;
+}
+
+.subscribe-box{
+
+    max-width:700px;
+
+    margin:auto;
+}
+
+.subscribe input{
+
+    border-radius:50px;
+}
+
+.subscribe button{
+
+    border-radius:50px;
+
+    padding:10px 30px;
+}
+
+.latest-blog{
+
+    background:#f8f9fa;
+}
+
+.blog-card{
+
+    background:#fff;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+    transition:.3s;
+}
+
+.blog-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.2);
+}
+
+.blog-card img{
+
+    height:250px;
+
+    width:100%;
+
+    object-fit:cover;
+}
+
+.blog-card h4{
+
+    font-size:24px;
+
+    font-weight:bold;
+}
+
+.blog-card p{
+
+    font-size:15px;
+}
+
+.blog-card .btn{
+
+    border-radius:30px;
+
+    padding:8px 20px;
+}
+
+
+.footer{
+
+    background:#14532d;
+
+    color:white;
+}
+
+.footer h3,
+.footer h4{
+
+    margin-bottom:20px;
+
+    font-weight:bold;
+}
+
+.footer p{
+
+    color:#dcdcdc;
+}
+
+.footer ul li{
+
+    margin-bottom:10px;
+}
+
+.footer ul li a{
+
+    color:#dcdcdc;
+
+    text-decoration:none;
+
+    transition:.3s;
+}
+
+.footer ul li a:hover{
+
+    color:#7CFC00;
+
+    padding-left:8px;
+}
+
+.social-icons a{
+
+    width:40px;
+
+    height:40px;
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:white;
+
+    color:#198754;
+
+    border-radius:50%;
+
+    margin-right:10px;
+
+    text-decoration:none;
+
+    transition:.3s;
+}
+
+.social-icons a:hover{
+
+    background:#7CFC00;
+
+    color:#000;
+
+    transform:translateY(-5px);
+}
+
+.footer hr{
+
+    border-color:rgba(255,255,255,.2);
+}
